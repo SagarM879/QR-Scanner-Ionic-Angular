@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title style="text-align:center;">
+      Scan QR Code
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <button ion-button color="primary" (click)="scanQrCode()">Click To Scan</button>
+<!-- Displaying Data in the QR Code --> 
+    <div *ngIf="results">
+        <p> Value : </p>
+        <h3 style="text-align:center;">{{results.text}}</h3>
+        <p> Code Format : </p>
+        <p style="text-align:center;">{{results.format}}</p>
+    </div>
+<!-- End -->
+
+</ion-content>
