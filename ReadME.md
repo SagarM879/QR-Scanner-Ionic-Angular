@@ -13,9 +13,9 @@ To make Like this App : \n
 1. Add phonegap barcode-scanner plugin 
 2. Add it in the app.module
 3. Add it in Page Has the Button to Scan this App 
-4. In here You Have to Ways : 
-A.If you wnat to make async Requests and make the await for resolving the promise : change in tconfig.ts ==> es5 to es6 <br />. 
-B. Make a Simple Request without async <br />.
+4. In here You Have to Ways : <br /> <br /> br />
+A.If you wnat to make async Requests and make the await for resolving the promise : change in tconfig.ts ==> es5 to es6 <br /> <br />. 
+B. Make a Simple Request without async <br /><br />.
 
 
 # You can get the App in You Browser :
